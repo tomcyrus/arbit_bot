@@ -72,7 +72,7 @@ def main():
     exchanges = [
         "hitbtc",
         "binance",
-        # "kucoin",
+        "kucoin",
         "bitmart",
 
         # "coinbase",
@@ -114,7 +114,7 @@ def main():
 
     for symbol in symbols:
         print("------------------------------")
-        print("***WELCOME TO AUXNTRADE-ModTrizyx BOT***")
+        print("***WELCOME TO Fastarbit-ModTrizyx BOT***")
         print("------------------------------")
         balance_binance = binance_balance.fetch_balance()
         balance_kucoin = kucoin_balance.fetch_balance()
