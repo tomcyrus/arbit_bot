@@ -45,8 +45,8 @@ exchangesData = {
 }
 
 binance_balance = ccxt.binance({
-    "apiKey": "4M0NO0ZV-D5AB27RS-952QYOJX-U3REMK1T",
-    "secret": "a895c5a9aa987128925c32f40b1eafca2283451920e82a528090ad9c690fd365a45599c10328bc3ec53c230aedcf7fd5b4d36b91cd8b040e1e4f58e351915a17",
+    "apiKey": "Xx4SFzJwRWC2VdRy055JzCYsrLoBFccp1akEPXuImuapcnrbgVuvlZHJXGbIsB9a",
+    "secret": "a7Annf1tu6xqU1Y4eHUcTyH5zqAkxrg4SsorNnCEzbFIQMuaJtrhSgjb6idCLt2E",
 })
 
 kucoin_balance = ccxt.kucoin({
@@ -116,12 +116,12 @@ def main():
         print("------------------------------")
         print("***WELCOME TO AUXNTRADE-ModTrizyx BOT***")
         print("------------------------------")
-        # balance_binance = binance_balance.fetch_balance()
-        # balance_kucoin = kucoin_balance.fetch_balance()
+        balance_binance = binance_balance.fetch_balance()
+        balance_kucoin = kucoin_balance.fetch_balance()
         balance_hitbtc = hitbtc_balance.fetch_balance()
         exchange = ccxt.hitbtc()
-        # print('USDT, Binance:', (balance_binance['total']['USDT']))
-        # print('USDT, Kucoin:', (balance_kucoin['total']['USDT']))
+        print('USDT, Binance:', (balance_binance['total']['USDT']))
+        print('USDT, Kucoin:', (balance_kucoin['total']['USDT']))
         print('USDT, HITBTC:', (balance_hitbtc['total']['USDT']))
         # print('ETH:',(balance['total']['ETH']))
         # print('BCH:',(balance['total']['BCH']))
