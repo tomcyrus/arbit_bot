@@ -72,8 +72,8 @@ def main():
     exchanges = [
         "hitbtc",
         "binance",
-        "kucoin",
-        "bitmart",
+        # "kucoin",
+        # "bitmart",
 
         # "coinbase",
         # "coinbase pro",
