@@ -45,8 +45,8 @@ exchangesData = {
 }
 
 binance_balance = ccxt.binance({
-    "apiKey": "Xx4SFzJwRWC2VdRy055JzCYsrLoBFccp1akEPXuImuapcnrbgVuvlZHJXGbIsB9a",
-    "secret": "a7Annf1tu6xqU1Y4eHUcTyH5zqAkxrg4SsorNnCEzbFIQMuaJtrhSgjb6idCLt2E",
+    "apiKey": "K2Q7wiXTYEeAzExQJLifmW5r2TChgo5oPovDIiv2suaJECRb7lSRaIOu6xHYTDM5",
+    "secret": "008OdMlI8Rag90ehz3cdugscWtsa4d4GwpK5fRbzb0iwSJQJCYWMyK7urTyxVN3P",
 })
 
 kucoin_balance = ccxt.kucoin({
